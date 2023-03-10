@@ -14,10 +14,16 @@ Additionally, I got refreshed on how to create a python virtual environment usin
 conda create --name eye_tracker python=3
 ```
 
-and to activate the environment using 
+And to activate the environment using 
 
 ```
 conda activate eye_tracker
+```
+
+The environment could later be deactivated to go back to base python libraries installed on the OS by using:
+
+```
+conda deactivate eye_tracker
 ```
 
 I also got reminded to check each library installation using 
@@ -32,18 +38,32 @@ Of course, in order for that command to work, the library had to be installed us
 pip install [library name]
 ```
 
-
-Thankfully, my computer was already equipped with Python3, Pip, Homebrew and Anaconda. The aliases for these package managers were also properly setup for 
-my liking. This made the installation process much smoother. The `dlib` library was installed using conda-forge, and its installation was verified using 
+The `dlib` library was installed using conda-forge, and its installation was verified using 
 
 ```
 conda list dlib
 ```
 
-The installation command used to install the library was: 
+Thankfully, my computer was already equipped with Python3, Pip, Homebrew and Anaconda. The aliases for these package managers were also properly setup for 
+my liking. This made the installation process much smoother. 
+
+The complete list of commands to install all necessary libraries:
 
 ```
-conda install -c conda-forge dlib  
+pip install --upgrade pip 
+pip install numpy
+pip install scipy
+pip install tensorflow
+pip install matplotlib
+pip install opencv_python
+pip install Flask
+pip install pytest-timeit
+brew install cmake
+pip install cmake
+brew install boost
+brew install boost-python3
+pip install scikit-image
+conda install -c conda-forge dlib
 ```
 
 Lastly, the requirements.txt file was compiled using the command
