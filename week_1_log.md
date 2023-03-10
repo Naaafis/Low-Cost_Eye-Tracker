@@ -32,7 +32,9 @@ Of course, in order for that command to work, the library had to be installed us
 pip install [library name]
 ```
 
-Thankfully, my computer was already equipped with Python3, Pip, Homebrew and Anaconda. The aliases for these package managers were also properly setup for my liking. This made the installation process much smoother. The `dlib` library was installed using conda-forge, and its installation was verified using 
+
+Thankfully, my computer was already equipped with Python3, Pip, Homebrew and Anaconda. The aliases for these package managers were also properly setup for 
+my liking. This made the installation process much smoother. The `dlib` library was installed using conda-forge, and its installation was verified using 
 
 ```
 conda list dlib
