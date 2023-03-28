@@ -316,7 +316,8 @@ Node: 'save/RestoreV2_39'
 Unable to open table file /Users/cheffbcookin/Desktop/EC544/Eye-Tracker/pretrained_models/itracker_adv/model-23.meta: DATA_LOSS: not an sstable (bad magic number): perhaps your file is in a different file format and you need to use a different restore operator?
 	 [[{{node save/RestoreV2_39}}]]
 
-Original stack trace for 'save/RestoreV2_39':
+Original stack trace for 'save/RestoreV2_39'::q
+
 
 [1m[7m%[27m[1m[0m                                                                                                                                               [0m[27m[24m[J(eye_track) cheffbcookin@crc-dot1x-nat-10-239-78-157 Eye-Tracker % [K[?2004heexit[?2004l
 
